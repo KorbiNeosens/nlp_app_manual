@@ -1,0 +1,47 @@
+site_name: NLP Control Center
+site_author: Neosens
+
+theme:
+  name: material
+  pdf: true
+  logo: images/nlp_icon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue
+      accent: lightblue 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: lightblue
+      accent: lime
+markdown_extensions:
+  - attr_list
+extra_css:
+- styles/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Devices Screen: devices-screen.md
+  - Setup Screen:
+      - Device: setup-screen/device.md
+      - Update: setup-screen/update.md
+      - Diagnostics: setup-screen/diagnostics.md
+      - Lock with PIN: setup-screen/lockWithPin.md
+      - Tap to Read: setup-screen/tapToRead.md
+      - App Settings: setup-screen/appSettings.md

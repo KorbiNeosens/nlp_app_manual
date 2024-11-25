@@ -41,7 +41,7 @@ plugins:
   - exporter:
       formats:
         pdf:
-          enabled: true
+          enabled: false
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:

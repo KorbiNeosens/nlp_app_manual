@@ -38,19 +38,7 @@ extra_css:
 
 plugins:
   - search
-  - exporter:
-      formats:
-        pdf:
-          enabled: false
-          stylesheets:
-            - resources/stylesheets/pdf.scss
-          covers:
-            front: resources/templates/covers/front.html.j2
-          aggregator:
-            enabled: true
-            output: documentation.pdf
-            covers: limits
-          concurrency: 8
+  
 
 nav:
   - Home: index.md

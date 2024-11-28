@@ -5,7 +5,7 @@ pdf: true
 
 The Devices Screen provides the following information for each detected receiver:
 
-- **Signal Strength (RSSI):** Bars and numerical values indicating proximity .
+- **Signal Strength (RSSI):** Bars and numerical values indicating proximity.
 - **Device Name:** Custom or default names, such as "NLP200" or "LRX200."
 - **MAC Address:** Matches the label on the receiver for identification.
 

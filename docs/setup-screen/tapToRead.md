@@ -1,5 +1,5 @@
 ---
-pdf: false
+pdf: true
 ---
 # Tap to Read
 

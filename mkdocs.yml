@@ -32,6 +32,7 @@ theme:
 markdown_extensions:
   - attr_list
   - admonition
+  - def_list
 
 extra_css:
 - styles/extra.css
@@ -63,3 +64,9 @@ nav:
       - Lock with PIN: setup-screen/lockWithPin.md
       - Tap to Read: setup-screen/tapToRead.md
       - App Settings: setup-screen/appSettings.md
+  - Vehicle Screen: 
+      - Overview: vehicle-screen/vehicle-screen.md
+      - Edit Vehicle: vehicle-screen/editVehicle.md
+      - Edit Tire: vehicle-screen/editTire.md
+      - Airline Sensor Setup: vehicle-screen/airline.md
+      - Odometer Setup: vehicle-screen/odometer.md     

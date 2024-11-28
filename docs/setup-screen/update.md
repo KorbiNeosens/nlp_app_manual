@@ -13,6 +13,6 @@ A red dot on the **Setup** or **Update Menu** icon indicates available firmware 
 1. The update progress is visually displayed by a circular progress indicator.
 2. The receiver reboots and reconnects automatically upon update completion.
 
-    | **Update Menu**       |**Update Available**       |
-    |:----------------------:|:----------------------:|
-    | ![Update Menu](images/update_menu.PNG){width="200px"} |![Update Available](images/updateAvailable.PNG){width="200px"} |
+| **Update Menu**       |**Update Available**       |
+|:----------------------:|:----------------------:|
+| ![Update Menu](images/update_menu.PNG){width="200px"} |![Update Available](images/updateAvailable.PNG){width="200px"} |

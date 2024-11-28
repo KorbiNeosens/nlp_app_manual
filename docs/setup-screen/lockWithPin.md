@@ -1,4 +1,6 @@
-
+---
+pdf: true
+---
 # Lock with PIN
 
 Secure your receiver by setting a 4-digit PIN:

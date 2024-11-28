@@ -1,4 +1,6 @@
-
+---
+pdf: true
+---
 # Getting Started
 
 ## Installing the App

@@ -11,4 +11,6 @@ A red dot indicates available firmware updates for the connected device.
 1. The update progress is visually displayed.
 2. The receiver reboots and reconnects automatically upon update completion.
 
-![App Screenshot](images/update_menu.PNG){ width="300px"}
+    | **Update Menu**       |
+    |:----------------------:|
+    | ![Update Menu](images/update_menu.PNG){width="200px"} |

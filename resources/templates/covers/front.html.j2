@@ -19,11 +19,17 @@
     section {
       color: #fff;
       width: 100%; /* Make section span full width */
-      padding: 0;
-      margin: 0;
       position: absolute;
-      bottom: 10cm; /* Position above the bottom */
+      bottom: 4cm; /* Position above the bottom */
       text-align: center; /* Center-align content */
+      border: 1px solid #fff; /* Optional for debugging */
+    }
+
+    section .title, 
+    section .version {
+      display: block; /* Ensure block-level behavior */
+      width: 100%; /* Force full width */
+      margin: 0; /* Remove any default margins */
     }
 
     section .title {
@@ -48,7 +54,7 @@
   @page {
     @top-center {
       font-size: 9pt;
-      color: #4875FF;
+      color: #fff;
       content: '{{ config.site_name }}' ' — ' string(title);
     }
   }

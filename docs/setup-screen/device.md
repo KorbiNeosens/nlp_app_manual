@@ -1,4 +1,6 @@
-
+---
+pdf: true
+---
 # Device Configuration
 
 The Device Menu enables in-depth configurations:

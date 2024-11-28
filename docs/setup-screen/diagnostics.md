@@ -11,4 +11,6 @@ The Diagnostics Menu provides detailed device insights:
 - **Refresh:** Update diagnostics data with latest info .
 - **Erase and Restart:** Erase and restart existing diagnostics data.
 
-![App Screenshot](images/diagnostic_menu.PNG){.center width="300px"}
+    | **Diagnostics Menu**       |
+    |:----------------------:|
+    | ![Diagnostics Menu](images/diagnostic_menu.PNG){width="200px"} |

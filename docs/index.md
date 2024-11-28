@@ -1,7 +1,9 @@
-
+---
+pdf: true
+---
 # NLP Control Center Manual
 
-The NLP Control Center app is designed to simplify the configuration, monitoring, and maintenance of TPMS (Tire Pressure Monitoring System) receivers and sensors. 
+The NLP Control Center app is designed to simplify the configuration, monitoring, and maintenance of TPMS (Tire Pressure Monitoring System) receivers and sensors.
 
 ## Key Features
 

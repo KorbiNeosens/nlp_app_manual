@@ -8,7 +8,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    #- toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -21,14 +21,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: blue
+      primary: custom
       accent: lightblue 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: lightblue
-      accent: lime
+      primary: custom
+      accent: lightblue
 markdown_extensions:
   - attr_list
   - admonition
@@ -38,7 +38,18 @@ extra_css:
 
 plugins:
   - search
-  
+  - exporter:
+      formats:
+        pdf:
+          enabled: true
+          stylesheets:
+            - resources/stylesheets/pdf.scss
+          covers:
+            front: resources/templates/covers/front.html.j2
+          aggregator:
+            enabled: true
+            output: documentation.pdf
+            covers: limits
 
 nav:
   - Home: index.md

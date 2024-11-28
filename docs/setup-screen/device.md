@@ -9,9 +9,9 @@ The Device Menu enables in-depth configurations:
 
 Each communication type utilizes a specific transmission method to send the data:
 
-  1. BLE (Bluetooth Low Energy): Transmits data wirelessly using BLE technology.
-  2. CAN (Controller Area Network): Communicates over a CAN bus, commonly used in automotive environments.
-  3. RS232: Transmits data through a serial connection.
+>BLE (Bluetooth Low Energy): Transmits data wirelessly using BLE technology.  
+CAN (Controller Area Network): Communicates over a CAN bus, commonly used in automotive environments.  
+RS232: Transmits data through a serial connection.
 
 | **Type**       | **Mode**      | **Description**                                                                 |
 |-----------------|--------------|---------------------------------------------------------------------------------|

@@ -3,17 +3,20 @@ pdf: true
 ---
 # Odometer Setup
 
-The Devices Screen provides the following information for each detected receiver:
+The Odometer Menu provides a straightforward way to configure the odometer for trailer vehicles. Here's a breakdown of its functionality:
 
-- **Signal Strength (RSSI):** Bars and numerical values indicating proximity.
-- **Device Name:** Custom or default names, such as "NLP200" or "LRX200."
-- **MAC Address:** Matches the label on the receiver for identification.
+## Set Odometer ID
 
-## Key Features
+You can assign the odometer ID using one of the following methods:
 
-- **Filtering Devices:** Quickly find devices by filtering their names.
-- **Connecting to a Device:** Tap a device from the list or scan the receiver’s QR code for direct connection.
+### Manually Typing
 
-| **Devices Screen**       |
+Enter the odometer ID directly into the input field for precise configuration.
+
+### Scanning QR Code
+
+Use the device's camera to scan the QR code associated with the odometer, allowing for quick and error-free input of the ID.
+
+| **Odometer Setup Menu**       |
 |:----------------------:|
-| ![Devices Screen](images/devices_screen.PNG){width="200px"} |
+| ![Odometer Setup Menu](images/odometer.PNG){width="200px"} |

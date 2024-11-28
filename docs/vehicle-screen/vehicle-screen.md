@@ -9,17 +9,17 @@ The Vehicle Screen dynamically adjusts its functionality based on the device com
 
 If the device supports a Filtered mode, the following features are available:
 
-### [Edit Vehicle >](editVehicle.md)
+### [Edit Vehicle](editVehicle.md)
 
 - Use the Edit button to set up a vehicle layout (e.g., truck or trailer).  
 - Configure tires by selecting them on the screen and setting warning thresholds. These settings are detailed in a separate page.
 
-### [Edit Tire >](editTire.md)
+### [Edit Tire](editTire.md)
 
 - After setting up the vehicle, tap each tire position to assign the sensor ID and sensor type to it.
 - Once the sensor ID is assigned to all tires, the setup is complete, and the tires turn green.
 
-### [Rotate Tires >](rotate.md)
+### [Rotate Tires](rotate.md)
 
 - The Rotate button allows you to change the positions of sensors within the vehicle layout. For example, if sensors need to be swapped between tires.
   
@@ -34,12 +34,12 @@ If the device supports a Filtered mode, the following features are available:
 
 ### Trailer-Specific Functions
 
-#### [Airline Sensor Setup >](airline.md)
+#### [Airline Sensor Setup](airline.md)
 
 - Available for trailers only.
 - You can add the airline sensor ID and configure its warning thresholds (explained in detail on a separate page).
 
-#### [Odotmeter Setup >](odotmeter.md)
+#### [Odotmeter Setup](odotmeter.md)
 
 - Available for trailers only.
 - Add the Odometer ID and configure it via a dedicated page.

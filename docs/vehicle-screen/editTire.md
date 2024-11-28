@@ -17,7 +17,7 @@ Enter the sensor ID directly into the input field.
 
 Use the device’s camera to scan the QR code associated with the sensor, automatically inputting the sensor ID.
 
-### Using NFC
+### Using NFC (Available for NLP sensor type only)
 
 Tap the NFC-enabled sensor to the device to read and assign the sensor ID quickly.
 

@@ -70,3 +70,5 @@ nav:
       - Edit Tire: vehicle-screen/editTire.md
       - Airline Sensor Setup: vehicle-screen/airline.md
       - Odometer Setup: vehicle-screen/odometer.md     
+  - Monitor Screen: monitor-screen.md
+  - In-Cab Display: inCabDisplay.md

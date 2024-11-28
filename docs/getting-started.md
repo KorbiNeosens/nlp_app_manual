@@ -5,8 +5,9 @@ pdf: true
 
 ## Installing the App
 
- 1. Download the app from the Google Play Store or Apple App Store.
+ [comment]: <> (1. Download the app from the Google Play Store or Apple App Store.)
  2. Enable Bluetooth and location permissions on your device to ensure connectivity.
+ 3. {{ version}}
 
 ## Launching the App
 

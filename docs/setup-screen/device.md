@@ -9,23 +9,23 @@ The Device Menu enables in-depth configurations:
 
 Each communication type utilizes a specific transmission method to send the data:
 
-    - BLE (Bluetooth Low Energy): Transmits data wirelessly using BLE technology.
-    - CAN (Controller Area Network): Communicates over a CAN bus, commonly used in automotive environments.
-    - RS232: Transmits data through a serial connection.
+  1. BLE (Bluetooth Low Energy): Transmits data wirelessly using BLE technology.
+  2. CAN (Controller Area Network): Communicates over a CAN bus, commonly used in automotive environments.
+  3. RS232: Transmits data through a serial connection.
 
 | **Type**       | **Mode**      | **Description**                                                                 |
 |-----------------|--------------|---------------------------------------------------------------------------------|
-| **BLE**         | Filtered      | Allows setup of a vehicle and its tires, only displays sensors for this setup.  |
-|                 | Unfiltered    | Displays all sensors around without a vehicle layout.                          |
-| **CAN**         | Filtered      | Supports vehicle and tire setup, listening only to configured sensors.         |
-|                 | Unfiltered    | Displays any sensor data without a specific layout.                            |
+| **BLE**         | Filtered      | Allows setup of a vehicle and its tires, only displays/transmits sensors for this setup.  |
+|                 | Unfiltered    | Displays/Transmits all sensors around without a vehicle layout.                          |
+| **CAN**         | Filtered      | Allows setup of a vehicle and its tires, only displays/transmits sensors for this setup.        |
+|                 | Unfiltered    | Displays/Transmits any sensor data without a specific layout.                            |
 |                 | CAN Garage    | A specific CAN mode tailored for garage or workshop environments.|
-|                 | EBS    | A specific CAN mode tailored for Trailer EBS systems.|
+|                 | EBS    | A specific CAN mode tailored for Trailer EBS systems. Allows setup of a trailer and its tires, only displays/transmits sensors for this setup.|
 |                 | RAW    | Custom communication types tailored for specific use cases.|
-|                 | J1939    | A specific CAN mode tailored for J1939.|
-|                 | Unfiltered (old)    | A specific CAN mode tailored for J1939.|
-| **RS232**       | Filtered      | Allows for vehicle and tire-specific setup, displaying configured sensors only.|
-|                 | Unfiltered    | Displays all sensor data without any predefined configuration.|
+|                 | J1939    | A specific CAN mode tailored for J1939 systems. Allows setup of a trailer and its tires, only displays/transmits sensors for this setup.|
+|                 | Unfiltered (old)    | Old CAN Unfiltered mode for legacy support.|
+| **RS232**       | Filtered      | Allows setup of a vehicle and its tires, only displays/transmits sensors for this setup.|
+|                 | Unfiltered    | Displays/Transmits all sensor data without any predefined configuration.|
 |                 | Tacograph    | Custom communication types tailored for specific use cases.  |
 
 - **Vehicle Setup:** Assign a vehicle as a truck or trailer.

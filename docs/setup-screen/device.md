@@ -9,7 +9,7 @@ The Device Menu enables in-depth configurations:
 
 Each communication type utilizes a specific transmission method to send the data:
 
->BLE (Bluetooth Low Energy): Transmits data wirelessly using BLE technology.  
+>BLE (2.4GHz): Transmits data wirelessly using BLE technology.  
 CAN (Controller Area Network): Communicates over a CAN bus, commonly used in automotive environments.  
 RS232: Transmits data through a serial connection.
 
@@ -23,10 +23,8 @@ RS232: Transmits data through a serial connection.
 |                 | EBS    | A specific CAN mode tailored for Trailer EBS systems. Allows setup of a trailer and its tires, only displays/transmits sensors for this setup.|
 |                 | RAW    | Custom communication types tailored for specific use cases.|
 |                 | J1939    | A specific CAN mode tailored for J1939 systems. Allows setup of a trailer and its tires, only displays/transmits sensors for this setup.|
-|                 | Unfiltered (old)    | Old CAN Unfiltered mode for legacy support.|
 | **RS232**       | Filtered      | Allows setup of a vehicle and its tires, only displays/transmits sensors for this setup.|
 |                 | Unfiltered    | Displays/Transmits all sensor data without any predefined configuration.|
-|                 | Tacograph    | Custom communication types tailored for specific use cases.  |
 
 - **Vehicle Setup:** Assign a vehicle as a truck or trailer.
 - **Temperature Compensation:** Adjust pressure readings based on temperature.
@@ -43,6 +41,9 @@ For CAN only:
 - **CAN Termination:** Enables or disables termination resistance, essential for maintaining signal integrity on the CAN bus.
 - **CAN Speed:** Selectable speeds of 250 kbps or 500 kbps, accommodating different CAN network standards.
 - **CAN Address:** Configurable CAN IDs to avoid conflicts and ensure proper communication in multi-device environments.
+
+## Device Name 
+- **Device Name:** Matching the unique identifier of the vehicle in the fleet.
 
 | **Device Menu**       | **Trailer Menu**     |
 |:----------------------:|:--------------------:|

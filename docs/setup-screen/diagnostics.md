@@ -1,4 +1,6 @@
-
+---
+pdf: true
+---
 # Diagnostics
 
 The Diagnostics Menu provides detailed device insights:

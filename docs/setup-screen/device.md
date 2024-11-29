@@ -13,8 +13,8 @@ Each communication type utilizes a specific transmission method to send the data
 CAN (Controller Area Network): Communicates over a CAN bus, commonly used in automotive environments.  
 RS232: Transmits data through a serial connection.
 
-| **Type**       | **Mode**      | **Description**                                                                 |
-|-----------------|--------------|---------------------------------------------------------------------------------|
+| **Type**       | **Mode**      | **Description**|
+|-----------------|--------------|----------------------------------|
 | **BLE**         | Filtered      | Allows setup of a vehicle and its tires, only displays/transmits sensors for this setup.  |
 |                 | Unfiltered    | Displays/Transmits all sensors around without a vehicle layout.                          |
 | **CAN**         | Filtered      | Allows setup of a vehicle and its tires, only displays/transmits sensors for this setup.        |

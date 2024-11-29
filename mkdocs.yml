@@ -47,40 +47,18 @@ extra_css:
 
 plugins:
   - search
-  - macros:
-      include_dir: .
-      modules:
-      - macros
-  - mkdocstrings:
-      handlers:
-        python:
-          import:
-            - https://docs.python.org/3/objects.inv
-            - https://installer.readthedocs.io/en/stable/objects.inv
-          options:
-            show_bases: false
-            show_source: true
-            show_labels: false
-            show_root_heading: true
-  - exporter:
-      formats:
-        pdf:
-          enabled: true
-          stylesheets:
-            - resources/stylesheets/pdf.scss
-          covers:
-            front: resources/templates/covers/front.html.j2
-          aggregator:
-            enabled: true
-            output: NLP_Control_Center_Manual.pdf
-            covers: limits
-      buttons:
-      - title: View as PDF
-        icon: material-file-move-outline
-        enabled: true
-        attributes:
-          target: _blank
-          href: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.href
+  # - exporter:
+  #     formats:
+  #       pdf:
+  #         enabled: true
+  #         stylesheets:
+  #           - resources/stylesheets/pdf.scss
+  #         covers:
+  #           front: resources/templates/covers/front.html.j2
+  #         aggregator:
+  #           enabled: true
+  #           output: NLP_Control_Center_Manual.pdf
+  #           covers: limits
 
 nav:
   - Home: index.md
@@ -102,6 +80,3 @@ nav:
       - Odometer Setup: vehicle-screen/odometer.md     
   - Monitor Screen: monitor-screen.md
   - In-Cab Display: inCabDisplay.md
-
-extra_javascript:
-  - assets/scripts/mkdocs-exporter.js

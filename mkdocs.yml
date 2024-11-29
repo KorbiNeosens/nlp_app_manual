@@ -72,7 +72,7 @@ plugins:
       buttons:
       - title: View as PDF
         icon: material-file-move-outline
-        enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+        enabled: true
         attributes:
           target: _blank
           href: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.href

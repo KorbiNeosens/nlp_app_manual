@@ -1,6 +1,11 @@
 site_name: NLP Control Center
 site_author: Neosens
 
+validation:
+  absolute_links: ignore
+  unrecognized_links: ignore
+  anchors: ignore
+  
 theme:
   name: material
   pdf: true

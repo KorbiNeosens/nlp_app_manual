@@ -47,18 +47,18 @@ extra_css:
 
 plugins:
   - search
-  - exporter:
-      formats:
-        pdf:
-          enabled: true
-          stylesheets:
-            - resources/stylesheets/pdf.scss
-          covers:
-            front: resources/templates/covers/front.html.j2
-          aggregator:
-            enabled: true
-            output: NLP_Control_Center_Manual.pdf
-            covers: limits
+  # - exporter:
+  #     formats:
+  #       pdf:
+  #         enabled: true
+  #         stylesheets:
+  #           - resources/stylesheets/pdf.scss
+  #         covers:
+  #           front: resources/templates/covers/front.html.j2
+  #         aggregator:
+  #           enabled: true
+  #           output: NLP_Control_Center_Manual.pdf
+  #           covers: limits
 
 nav:
   - Home: index.md

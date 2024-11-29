@@ -1,11 +1,7 @@
 site_name: NLP Control Center
 site_author: Neosens
 
-validation:
-  absolute_links: ignore
-  unrecognized_links: ignore
-  anchors: ignore
-  
+
 theme:
   name: material
   pdf: true
@@ -102,3 +98,6 @@ nav:
       - Odometer Setup: vehicle-screen/odometer.md     
   - Monitor Screen: monitor-screen.md
   - In-Cab Display: inCabDisplay.md
+
+extra_javascript:
+  - assets/scripts/mkdocs-exporter.js

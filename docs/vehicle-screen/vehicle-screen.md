@@ -1,7 +1,10 @@
 ---
 pdf: true
 ---
-# Overview
+
+<!-- markdownlint-disable no-inline-html -->
+
+# Vehicle Screen
 
 The Vehicle Screen dynamically adjusts its functionality based on the device communication type and the vehicle type (truck or trailer). Below are the available options for Filtered and Unfiltered devices.
 
@@ -39,7 +42,7 @@ If the device supports a Filtered mode, the following features are available:
 - Available for trailers only.
 - You can add the airline sensor ID and configure its warning thresholds (explained in detail on a separate page).
 
-#### [Odotmeter Setup](odotmeter.md)
+#### [Odotmeter Setup](odometer.md)
 
 - Available for trailers only.
 - Add the Odometer ID and configure it via a dedicated page.

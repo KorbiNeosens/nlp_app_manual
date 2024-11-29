@@ -71,3 +71,10 @@ body {
     height: 0;
   }
 }
+.toc {
+  display: initial;
+}
+.page-break {
+  display: none;
+  page-break-after: always;
+}

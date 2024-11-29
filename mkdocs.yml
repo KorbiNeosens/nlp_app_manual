@@ -5,6 +5,7 @@ theme:
   name: material
   pdf: true
   logo: images/nlp_icon.png
+  favicon: images/nlp_icon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -33,6 +34,11 @@ markdown_extensions:
   - attr_list
   - admonition
   - def_list
+  - toc:
+      permalink: true
+      title: Table of contents
+      title_class: toc-title
+      toc_depth: 2-3
 
 extra_css:
 - styles/extra.css
@@ -40,18 +46,36 @@ extra_css:
 
 plugins:
   - search
-  # - exporter:
-  #     formats:
-  #       pdf:
-  #         enabled: true
-  #         stylesheets:
-  #           - resources/stylesheets/pdf.scss
-  #         covers:
-  #           front: resources/templates/covers/front.html.j2
-  #         aggregator:
-  #           enabled: true
-  #           output: documentation.pdf
-  #           covers: limits
+  - mkdocstrings:
+      handlers:
+        python:
+          import:
+            - https://docs.python.org/3/objects.inv
+            - https://installer.readthedocs.io/en/stable/objects.inv
+          options:
+            show_bases: false
+            show_source: true
+            show_labels: false
+            show_root_heading: true
+  - exporter:
+      formats:
+        pdf:
+          enabled: true
+          stylesheets:
+            - resources/stylesheets/pdf.scss
+          covers:
+            front: resources/templates/covers/front.html.j2
+          aggregator:
+            enabled: true
+            output: NLP_Control_Center_Manual.pdf
+            covers: limits
+      buttons:
+      - title: View as PDF
+        icon: material-file-move-outline
+        enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+        attributes:
+          target: _blank
+          href: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.href
 
 nav:
   - Home: index.md
@@ -68,6 +92,7 @@ nav:
       - Overview: vehicle-screen/vehicle-screen.md
       - Edit Vehicle: vehicle-screen/editVehicle.md
       - Edit Tire: vehicle-screen/editTire.md
+      - Rotate Tires: vehicle-screen/rotate.md
       - Airline Sensor Setup: vehicle-screen/airline.md
       - Odometer Setup: vehicle-screen/odometer.md     
   - Monitor Screen: monitor-screen.md

@@ -3,17 +3,13 @@ pdf: true
 ---
 # Rotate Tires
 
-The Devices Screen provides the following information for each detected receiver:
+The Rotate function allows you to reassign the positions of sensors on the vehicle. This is useful for reconfiguring tire placements after rotation or replacement. Here's how it works:
 
-- **Signal Strength (RSSI):** Bars and numerical values indicating proximity.
-- **Device Name:** Custom or default names, such as "NLP200" or "LRX200."
-- **MAC Address:** Matches the label on the receiver for identification.
+- The vehicle layout is displayed twice: one above the other.
+- In the upper layout, select the tire you want to move. The selected tire will be marked with a number, indicating it is ready for reassignment.
+- In the lower layout, choose the new position for the selected tire. The tire will then be moved to the chosen position, updating the sensor configuration accordingly.
+This process ensures a quick and accurate reassignment of sensor positions on the vehicle.
 
-## Key Features
-
-- **Filtering Devices:** Quickly find devices by filtering their names.
-- **Connecting to a Device:** Tap a device from the list or scan the receiver’s QR code for direct connection.
-
-| **Devices Screen**       |
+| **Rotate Tires Menu**       |
 |:----------------------:|
-| ![Devices Screen](images/devices_screen.PNG){width="200px"} |
+| ![Rotate Tires Menu](images/rotate.PNG){width="200px"} |

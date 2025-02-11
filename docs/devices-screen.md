@@ -16,4 +16,4 @@ The Devices Screen provides the following information for each detected receiver
 
 | **Devices Screen**       |
 |:----------------------:|
-| ![Devices Screen](images/devices_screen.PNG){width="200px"} |
+| ![Devices Screen](images/devices_screen.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

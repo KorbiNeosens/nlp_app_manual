@@ -42,9 +42,10 @@ For CAN only:
 - **CAN Speed:** Selectable speeds of 250 kbps or 500 kbps, accommodating different CAN network standards.
 - **CAN Address:** Configurable CAN IDs to avoid conflicts and ensure proper communication in multi-device environments.
 
-## Device Name 
-- **Device Name:** Matching the unique identifier of the vehicle in the fleet.
+Device Name:
+
+- **Device Name:** Matching the unique identifier of the vehicle in the fleet
 
 | **Device Menu**       | **Trailer Menu**     |
 |:----------------------:|:--------------------:|
-| ![Update Menu](images/device_menu.PNG){width="200px"} | ![Confirm Update](images/trailer_menu.PNG){width="200px"} |
+| ![Update Menu](images/device_menu.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} | ![Confirm Update](images/trailer_menu.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

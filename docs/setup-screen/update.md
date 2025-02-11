@@ -15,4 +15,4 @@ A red dot on the **Setup** or **Update Menu** icon indicates available firmware 
 
 | **Update Menu**       |**Update Available**       |
 |:----------------------:|:----------------------:|
-| ![Update Menu](images/update_menu.PNG){width="200px"} |![Update Available](images/updateAvailable.PNG){width="200px"} |
+| ![Update Menu](images/update_menu.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Update Available](images/updateAvailable.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

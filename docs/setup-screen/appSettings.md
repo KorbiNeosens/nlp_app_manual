@@ -1,6 +1,4 @@
----
-pdf: true
----
+
 # App Settings
 
 Customize your app preferences:
@@ -13,6 +11,4 @@ Customize your app preferences:
 
     Please talk to your distributor for details!
 
-| **App Settings Menu**       |
-|:----------------------:|
-| ![App Settings Menu](images/appSettings_menu.PNG){width="200px"} |
+![App Screenshot](images/appSettings_menu.PNG){ width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"}

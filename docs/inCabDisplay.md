@@ -56,4 +56,4 @@ After configuring the settings, the in-cab display must be linked to a truck rec
 
 | **In-Cab Display Device Name**       |**In-Cab Display Device Name**     |
 |:----------------------:|:----------------------:|
-| ![In-Cab Display Device Name](images/inCabName.PNG){width="200px"} |![In-Cab Display Device Name](images/inCabSettings.PNG){width="200px"} |
+| ![In-Cab Display Device Name](images/inCabName.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![In-Cab Display Device Name](images/inCabSettings.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

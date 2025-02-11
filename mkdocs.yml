@@ -1,16 +1,20 @@
-site_name: NLP Control Center
+site_name: Application Manual
 site_author: Neosens
 
 
 theme:
   name: material
   pdf: true
-  logo: images/nlp_icon.png
-  favicon: images/nlp_icon.png
+  logo: images/tiresens_bw.png
+  favicon: images/tiresens_sq.png
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand  # This keeps menus expanded
+    - navigation.instant  # Improves navigation performance
     #- toc.integrate
+    - navigation.path  # 🔹 Shows the full menu hierarchy inside the hamburger menu
+    - navigation.indexes  # 🔹 Keeps the menu structure consistent
     - navigation.top
     - search.suggest
     - search.highlight
@@ -18,28 +22,16 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
+
   palette:
     - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
       primary: custom
-      accent: lightblue 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: custom
-      accent: lightblue
+      accent: black 
 markdown_extensions:
+  - toc:
+      title: Quick links
   - attr_list
   - admonition
-  - def_list
-  - toc:
-      permalink: true
-      title: Table of contents
-      title_class: toc-title
-      toc_depth: 2-3
 
 extra_css:
 - styles/extra.css

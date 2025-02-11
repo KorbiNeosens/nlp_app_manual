@@ -3,16 +3,16 @@ pdf: true
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-# NLP Control Center Manual
+# Tiresens Setup Manual
 
-The NLP Control Center app is designed to simplify the configuration, monitoring, and maintenance of TPMS (Tire Pressure Monitoring System) receivers and sensors.
+The **Tiresens Setup** app streamlines the configuration, monitoring, and maintenance of TPMS (Tire Pressure Monitoring System) receivers and sensors.
 
 ## Key Features
 
-- Detecting and connecting to nearby receivers via BLE.
-- Updating firmware and customizing settings.
-- Diagnosing device issues and viewing sensor details.
+- **Seamless Connectivity:** Detect and connect to nearby receivers via BLE.
+- **Effortless Updates:** Update firmware and customize device settings.
+- **Advanced Diagnostics:** Troubleshoot issues and access detailed sensor information.
 
-![App Screenshot](images/nlp_icon.png){ width="200px"}
+![App Screenshot](images/tiresens_sq.png){ width="200px"}
 
 <span class="page-break"></span>

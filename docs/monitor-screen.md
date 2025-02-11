@@ -62,6 +62,6 @@ This mode provides a raw, unstructured view of sensor data without vehicle-speci
 
 | **Filtered Device (all OK and Trailer)**       |**Filtered Device (warning)**     |
 |:----------------------:|:----------------------:|
-| ![iltered Device](images/monitorOk.PNG){width="200px"} |![Filtered Device 1](images/monitorWarning.PNG){width="200px"} |
+| ![iltered Device](images/monitorOk.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Filtered Device 1](images/monitorWarning.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
 | **Tire Details**    |**Sensor List (unfiltered device)**       |
-| ![Tire Details](images/tireInfo.PNG){width="200px"} |![Sensor List](images/monitorUnfiltered.PNG){width="200px"} |
+| ![Tire Details](images/tireInfo.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Sensor List](images/monitorUnfiltered.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

@@ -37,4 +37,4 @@ Fhe following details are displayed for the tire:
 
 | **Edit Tire Menu**       |
 |:----------------------:|
-| ![Edit Tire Menu](images/editTire.PNG){width="200px"} |
+| ![Edit Tire Menu](images/editTire.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

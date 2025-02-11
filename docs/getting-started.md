@@ -7,6 +7,8 @@ pdf: true
 
  1. Download the app from the Google Play Store or Apple App Store.
  2. Enable Bluetooth and location permissions on your device to ensure connectivity.
+ 
+ ![App Icon](images/tiresens_install_icon.png){ width="150px"}
 
 !!! note "Restricted Access Phase"
 

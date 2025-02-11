@@ -3,9 +3,10 @@ pdf: true
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-# Tiresens Setup Manual
+# Setup App Guide
 
 The **Tiresens Setup** app streamlines the configuration, monitoring, and maintenance of TPMS (Tire Pressure Monitoring System) receivers and sensors.
+
 
 ## Key Features
 
@@ -13,6 +14,6 @@ The **Tiresens Setup** app streamlines the configuration, monitoring, and mainte
 - **Effortless Updates:** Update firmware and customize device settings.
 - **Advanced Diagnostics:** Troubleshoot issues and access detailed sensor information.
 
-![App Screenshot](images/tiresens_sq.png){ width="200px"}
+![App Screenshot](images/tiresens_icon.png){ width="400px"}
 
 <span class="page-break"></span>

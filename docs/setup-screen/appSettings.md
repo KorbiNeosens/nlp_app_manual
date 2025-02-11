@@ -1,3 +1,7 @@
+---
+pdf: true
+level: confidential
+---
 
 # App Settings
 

@@ -1,5 +1,6 @@
 ---
 pdf: true
+level: confidential
 ---
 # In-Cab Display Configuration
 

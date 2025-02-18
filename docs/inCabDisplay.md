@@ -51,10 +51,12 @@ After configuring the settings, the in-cab display must be linked to a truck rec
 **Add the Truck MAC ID:**
 
 - Use the app to enter the truck unit’s **MAC ID**.
-- Input methods:
+
+Input methods:
+
 - **Typing:** Manually enter the MAC ID in the provided field.
 - **QR Code:** Scan the QR code associated with the truck unit to automatically input the MAC ID.
 
-| **In-Cab Display Device Name**       |**In-Cab Display Device Name**     |
+| **In-Cab Display Device Name**       |**In-Cab Display Settings**     |
 |:----------------------:|:----------------------:|
-| ![In-Cab Display Device Name](images/inCabName.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![In-Cab Display Device Name](images/inCabSettings.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![In-Cab Display Device Name](images/inCabName.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![In-Cab Display Settings](images/inCabSettings.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

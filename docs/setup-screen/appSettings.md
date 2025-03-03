@@ -15,4 +15,4 @@ Customize your app preferences:
 
     Please talk to your distributor for details!
 
-![App Screenshot](images/appSettings_menu.PNG){ width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"}
+![App Screenshot](images/appSettings_menu.PNG){ width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"}

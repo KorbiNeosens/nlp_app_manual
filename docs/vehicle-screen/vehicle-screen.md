@@ -57,6 +57,6 @@ If the device supports a Unfiltered mode, the following features are available:
 
 | **Vehicle Menu**       |**Setup not complete** (black tires)      |
 |:----------------------:|:----------------------:|
-| ![Vehicle Menu](images/vehicleMenu.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Setup not complete](images/vehicleScreenNotDone.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Vehicle Menu](images/vehicleMenu.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Setup not complete](images/vehicleScreenNotDone.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
 | **Setup complete** (green tires)       |**Unfiltered Devices**       |
-| ![Setup complete](images/vehicleScreenDone.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Unfiltered Devices](images/vehicleScreenUnfiltered.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Setup complete](images/vehicleScreenDone.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Unfiltered Devices](images/vehicleScreenUnfiltered.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

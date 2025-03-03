@@ -11,4 +11,4 @@ Retrieve sensor details like Sensor ID and Version Info.
 
 | **Tap to Read Menu**       |
 |:----------------------:|
-| ![Tap to Read Menu](images/nfc_screen.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Tap to Read Menu](images/nfc_screen.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

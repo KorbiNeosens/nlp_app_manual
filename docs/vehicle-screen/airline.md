@@ -35,4 +35,4 @@ This allows the system to recognize the specific capabilities and features of th
 
 | **Airline Sensor Menu**       |
 |:----------------------:|
-| ![Airline Sensor Menu](images/airline.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Airline Sensor Menu](images/airline.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

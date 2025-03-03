@@ -49,4 +49,4 @@ Device Name:
 
 | **Device Menu**       | **Trailer Menu**     |
 |:----------------------:|:--------------------:|
-| ![Update Menu](images/device_menu.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} | ![Confirm Update](images/trailer_menu.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Update Menu](images/device_menu.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} | ![Confirm Update](images/trailer_menu.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

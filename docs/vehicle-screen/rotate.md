@@ -13,4 +13,4 @@ This process ensures a quick and accurate reassignment of sensor positions on th
 
 | **Rotate Tires Menu**       |
 |:----------------------:|
-| ![Rotate Tires Menu](images/rotate.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Rotate Tires Menu](images/rotate.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

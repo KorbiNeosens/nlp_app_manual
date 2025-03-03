@@ -20,4 +20,4 @@ Use the device's camera to scan the QR code associated with the odometer, allowi
 
 | **Odometer Setup Menu**       |
 |:----------------------:|
-| ![Odometer Setup Menu](images/odometer.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| ![Odometer Setup Menu](images/odometer.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

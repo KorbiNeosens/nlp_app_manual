@@ -35,6 +35,10 @@ If the R141 Support setting is enabled, the available configurations are adjuste
 
 - You can only set the Placard Pressure (recommended tire pressure) and High Temperature Threshold.
 
-| **Select Vehicle Layout**       |**Set Warning Thresholds (R141 Disabled)**      |**Set Warning Thresholds (R141 Enabled)**      |
-|:----------------------:|:----------------------:|:----------------------:|
-| ![Select Vehicle Layout](images/selectVehicleLayout.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Set Warning Thresholds](images/setWarning.PNG){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Set Warning Thresholds (R141)](images/setWarningR141.png){width="200px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+| **Step 1: Select Vehicle Layout**       |
+|:----------------------:|
+| ![Select Vehicle Layout](images/selectVehicleLayout.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |
+
+|**Step 2: Set Warning Thresholds (R141 Disabled)**      |**Step 2: Set Warning Thresholds (R141 Enabled)**      |
+|:----------------------:|:----------------------:|
+|![Set Warning Thresholds](images/setWarning.PNG){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |![Set Warning Thresholds (R141)](images/setWarningR141.png){width="300px" style="border: 1px solid black; border-radius: 30px; padding: 5px; background-color: #000;"} |

@@ -90,5 +90,7 @@ nav:
       - Rotate Tires: vehicle-screen/rotate.md
       - Airline Sensor Setup: vehicle-screen/airline.md
       - Odometer Setup: vehicle-screen/odometer.md     
-  - Monitor Screen: monitor-screen.md
+  - Monitor Screen: 
+      - Overview: monitor-screen/monitor-screen.md
+      - Installation Report: monitor-screen/installation-report.md
   - In-Cab Display: inCabDisplay.md

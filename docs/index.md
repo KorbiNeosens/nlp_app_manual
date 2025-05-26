@@ -8,7 +8,6 @@ level: confidential
 
 The **Tiresens Setup** app streamlines the configuration, monitoring, and maintenance of TPMS (Tire Pressure Monitoring System) receivers and sensors.
 
-
 ## Key Features
 
 - **Seamless Connectivity:** Detect and connect to nearby receivers via BLE.

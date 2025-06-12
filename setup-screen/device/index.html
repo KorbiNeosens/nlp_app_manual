@@ -1,0 +1,1153 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Neosens">
+      
+      
+      
+        <link rel="prev" href="../../devices-screen/">
+      
+      
+        <link rel="next" href="../update/">
+      
+      
+      <link rel="icon" href="../../images/tiresens_install_icon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Device - Setup App Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#device-configuration" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Setup App Guide" class="md-header__button md-logo" aria-label="Setup App Guide" data-md-component="logo">
+      
+  <img src="../../images/tiresens_install_icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Setup App Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Device
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="black"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../getting-started/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../devices-screen/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Devices Screen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Setup Screen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../vehicle-screen/vehicle-screen/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Vehicle Screen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../monitor-screen/monitor-screen/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Monitor Screen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../inCabDisplay/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  In-Cab Display
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Setup App Guide" class="md-nav__button md-logo" aria-label="Setup App Guide" data-md-component="logo">
+      
+  <img src="../../images/tiresens_install_icon.png" alt="logo">
+
+    </a>
+    Setup App Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../devices-screen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Devices Screen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup Screen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Setup Screen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Device
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Update
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diagnostics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagnostics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lockWithPin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lock with PIN
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tapToRead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tap to Read
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appSettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    App Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Vehicle Screen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Vehicle Screen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-screen/vehicle-screen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-screen/editVehicle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Edit Vehicle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-screen/editTire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Edit Tire
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-screen/rotate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rotate Tires
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-screen/airline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Airline Sensor Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-screen/odometer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Odometer Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Monitor Screen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Monitor Screen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitor-screen/monitor-screen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitor-screen/installation-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation Report
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inCabDisplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    In-Cab Display
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Quick links">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div id="mkdocs-encrypted-content" style="display:none">r751O9pAi3p++posp7pMlw==;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</div>
+<div id="mkdocs-decrypted-content">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This content is password protected.</h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        <button class="md-button md-button--primary" id="mkdocs-decrypt-button">Enter</button>
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "setup-screen/device/";
+var decryption_failure_message = "Invalid password.";
+var encryptcontent_keystore = ["iRLSrsJkUlNcq39UIzhdRQ==;ULTUOQVioiHP0hSFqeuhprJLIGrDkaqLk3zhxT1xT1YdWccSOTeTAFOgmArippoFkvgIwNI7ktM/D+h7xiteKqNxEOj6rOIIzuESwKjk7KYewJp2f539WYV4Wpouk/g0;OxE6ZSl0YIiVR2hngSbbBw==", "F5e0sF+Hc8sywyHLE5sWIg==;CX+MghuO2tHdBVc4l2F/GTUCEt+dWZ+FJ0nsvKh03zUd9ojaSS0/eHpxMWkL/bTRtKHfyB8S3/xeM0Xi+2z7f2pMSD6iGRfUs+Ohc2LDnokzG0UTDJA/3vDa4UAGIY1j;MOy/fezDsT3B/YmOqONQDQ==", "7jBLNSgZfhYeuz8CpPpfSw==;GYHnoSedrNHxDVPY6roTsV0FyXs5rokioUee65C3sf1cxgbwrTB5UArYHH5fACFP4QoK0Gekq13Qv2EDuu4H+PUMSjk9ktefIxPdhIDr4CVREeKQsfiJudZ/4eGpkFUv;79VS03g0bYA7vON9Va0Vdg==", "D0rc9zba2DGQWXn+u+qgDw==;wfsePLvpYka+n3A5nCgbV5E2zMRwNsI3iKaiA0/jLY0enS5D9YwuJo9tnwAyIsEpbgB9STHX5WkjaWBuUVcWYw0knc7ngVbTMAVKp2DhglTNv5yY4zlxHFLrx9FYs1XR;+wsSW/AtHkh7jqnOGxIKWQ==", "NfvG4x78ILGbX3LGofUsJA==;peBdE6NJTV580uj/j061DgLl29lx8mJxn2Ial8GEy5pHdXuDV9C+lLhZe4IonJQIF7RVmv9/7vQEM+0YMFsX8yysNEqiOs8IFXwic/RXqNkQbMnQ1IYB9xA3njk4WYLa;etp20j4VG4ce5egSICRGzA==", "MsUdsLZ4fFaSMlOauBWWaw==;4vDCVObuzfbzVfMqAjkKhX6gxQleAcBV6wglrTUa8zwF7MPBiFRYrp6jKJD81vDpeQCHPBkkquIcyqjxwpTgTiO8GVvFDuoW/72AQDsOm0DYKCbuXiosAWY3teRi2b3c;Ef/jtB4rJX7pFDt9DhplLg==", "bEPxMOdo18Fs5UOhb5nHpw==;89n00I346kjkX80ads2zfWI9O40eaTiyF3IvsG7JvVuQQy5zhks5MRb8TYvKD07aayUYsyLU2NRO/5w+8AyWtlTxmQOwQJFgPZ+Mstgb82ICcz/CdTYmEuP18D4Mj/3w;auk253o6OD9AQ7DdmTpVCQ==", "LX0CibG0fPHPgnZto8DL6Q==;IAUilUma56vH0F3b0THSrqzW+U6eQvStwowEKGFIa1ArPhx1xtiwkDoLSUlGTNsqq7nidivp1btdJiEa4lj2ZOQ+XjHVqyX9GQKNCxwy9WzKQZwCU6zBma0AXBtmtD56;TyQnVB1uDt0DmInFBW9xEA==", "8IDguHHugAcPOrv5XR+LNg==;qYPigvj2uefVxSArVCyfXfnKXwWmmr7WzAvhCPy7hfqSP7ZzHpsap9TZdLeUgwLDYZwkxfm6DYCbyAZbYNr1SS5eOb7aGjZP2F0gjd/786D2vVt2FqXaE5n6+1vH3hGW;VRt35kkVrHxNBFcAO7fA5Q==", "KDzGiAySzTQf9kAAsDT5nQ==;6VIdcXdlE0+1jZ/WOVfbHXJnyfOoetPE9ta3HtibOsNaZ4L1iFfYA5J5VP8kKqBWb2SCzNhdxZ2Y3apMIVE1A1/inolO4a4pLjmnpUP1s9ARzeXwINTU+wpogxtozQC6;uprptxGVT5ybaAM+62VZ+w==", "yzIfbG0jaHY0946Qw8q8mA==;K08ckrHBhcJd1IIVuTnr2xLfSMxSfZnwihpU5x2WkxvEgcFCq00QZ/vJVg9XaD1wvwIZQEIdEUC6TuoBtwIk2BvenbFOfGCoaycjpRZSdv+9yWVk6NEBV/5iodPjTHYW;UvcHrohXP4p8P+qFbyKxTA==", "j2hSLijPAUrWWEoHrjSZkQ==;rEGjuCbMdfuIlalYbJvTyycoGYTZMacRluJZOVi2GWcAAAJ0TGk8IE6Bmi9vTuz4VVqXn0O02LYvEAjh/EYdw21ZuWCip0h46Va0ARR1WflNRJwft/q+2FdDrAfzHFAP;xm3zf0sViGPHIdIgf5rV9A==", "xxo5wgj8L0GGTqJhsHLZLg==;KylyqG7eJc9hJDCVyyvFK4pC8LQYGIWf4AIX+ot6u4jNMBDCeUmRtGo+8P2LF8Ip6ANRGV14g+1KsYzXfJvxzhIZHMyyUNBkSTSe2MvmFuz05qG4VcquDy3we7LkNwbz;tu8UW1uG+1Pwp+hZ59Omkg==", "7pz/DsUYKpEFKw7wW9rFLA==;MGCLxglRWfeXx1HWL8F7VSvE5dL5YyMfIHW2uB2bFWTyojDXJhUxDLeI22Bx4SnHj1aK7d3En01H03brfQ60Bck9uJj6EeDtIp+Q6kCpevlfia5XrVRBe/EHdLnFCLB2;O0+iCsSlAsqA7ly3vIfyKA==", "w4+tP7fvLlt9eCffCNXGsQ==;MPZ0TSR3XHay9ZWDL3Jj8NhPZhNi3OhgpBZsDTLs6cShgz/zINBAoMXdzfqRVzHDDR3DbZvqqb9BZi9NKIABsed0jKp8gd68rhyVNPWFUTsDn1H2JlkQKt1ft1pur6ky;wvNlqE2FtKhwcyJJdLrNAg==", "TjpWEvQPIUuSAAtuQT9lsQ==;p01HMrOGlClJ08VwNz7S8+FPPpoqZMcRtt0Im4Y5dN1T1ekubg6iPS82UOl7xQPN7QR5gNLp26rwAiApu92TTbWjm6o3ozlGOcFHNOfmA2kSWNiW8s64l4BoVmTIj+1f;+wk2+Z0MONZfhtwtDlLlLA==", "CkO5J6HZnW9XnQe1K9+V0g==;33EsXx2L+Q+xLr+ZBlbQNQU9Hh6ozOxecEugFXce73ZK3BmpgjNNPoJGFwncQ8mCdEz+lDwHxX2wg3UsEdVM3dDbOb1uyKcuD7QlBUtHAswm5Zs6ZS8EpicNcyQPuNiw;DdzJV2BsPmwzxLR0Ul9BSw==", "F/eDMxdPgdO2nRgQga3ecA==;m6Git9cNKZ5qEWYlaox58GbDBrFgRRjxZ8/Ttiy4wULpQArt6G9PIGs3wt/Wc/0eSALJmFFk6D1Gib5QpU7w0kPCqmnmHgUm5YLPKncBEmp6CFv1SA+Ckjye4nrWo5Li;d49gFUGAyd48V/PI+pJdMg==", "B/Eu4g1Qrr8/9eD1EXuM8Q==;NSJFF624a9YegLVz/HDfaHKvUdw0G4n3djDBxTITgGr8ddTiUKjG9NN6afcBEDkjbd2oEi/q2Hna/GHVj+dWdShYF8sYIeFXXniyq00NKbJYVBpP7h2r7CR/Is5iYgn1;BUjzyssu7axwzR/Oi2u3DQ==", "YNM3zifk30rSb+r4AY0yiQ==;kFa2fMVJ1ccb6JgQbMVAo6HDCgYDKajLQRxwLaii/L0zUL76M1jcmBXe3UVmvCycyjKHuggK4D8ApCG+MlFbHcgNQnE1lSjN141IUVbuOq+VyZWevlBm2cxEffJg64cg;mY01lAA6K2Oz6GKxi/i6tw=="];
+var encryptcontent_obfuscate = 0;
+
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+  
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.instant", "navigation.path", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
